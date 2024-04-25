@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-p    {color: green;}
-</style>
 <title> Home- Zelda Rosen </title>
 </head>
 <body>
