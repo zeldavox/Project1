@@ -8,12 +8,11 @@ on:
 
 jobs:
 
-  build-and-deploy:
+build-and-deploy:
 
-    runs-on: windows-latest
+runs-on: windows-latest
 
 steps:
-
     - uses: actions/checkout@main
 
     - name: Deploy HTML Files to AppService - CMST385
