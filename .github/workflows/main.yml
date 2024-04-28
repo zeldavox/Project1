@@ -11,7 +11,8 @@ jobs:
   build-and-deploy:
 
     runs-on: windows-latest
-    steps:
+
+     steps:
 
     - uses: actions/checkout@main
 
@@ -20,9 +21,9 @@ jobs:
       uses: azure/webapps-deploy@v1
 
       with:
-      
-        app-name: CMST385-jrosen13
-        
+
+        app-name: 'CMST385-jrosen13'
+
         slot-name: 'production'
 
-        publish-profile: ${{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ secrets.APPSERVICECMST385 }}
