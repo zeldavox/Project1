@@ -16,7 +16,7 @@ jobs:
 
     - uses: actions/checkout@main
 
-    - name: Deploy to Azure Web App
+    - name: Deploy HTML Files to AppService - CMST385
 
       uses: azure/webapps-deploy@v1
 
