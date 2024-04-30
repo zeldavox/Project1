@@ -1,15 +1,17 @@
 body {
 background-color: ;
 color: ;
-font-size: ;
+font-family: Poppins, san serif;
+font-size: 18 px;
 }
 
 p {
-color: ;
+color: black;
   
 }
 
 h1 { 
 color: ;
-font-size: ;
+font-family: "Abril Fatface", 
+font-size: 40 px ;
 }
